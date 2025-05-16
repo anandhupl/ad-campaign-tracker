@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Campaign</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Edit Campaign</h1>
+    {% if error %}
+    <p style="color: red;">Error: {{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <label>Campaign Name:</label><input type="text" name="campaign_name" value="{{ campaign['campaign_name'] }}" required><br>
+        <label>Date:</label><input type="date" name="date" value="{{ campaign['date'] }}" required><br>
+        <label>Clicks:</label><input type="number" name="clicks" value="{{ campaign['clicks'] }}" required><br>
+        <label>Impressions:</label><input type="number" name="impressions" value="{{ campaign['impressions'] }}" required><br>
+        <label>Conversions:</label><input type="number" name="conversions" value="{{ campaign['conversions'] }}" required><br>
+        <input type="submit" value="Update Campaign">
+    </form>
+    <a href="{{ url_for('view') }}">Back to Campaigns</a>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ad Campaign Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Ad Campaign Tracker</h1>
+    {% if error %}
+    <p style="color: red;">Error: {{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <label>Campaign Name:</label><input type="text" name="campaign_name" required><br>
+        <label>Date:</label><input type="date" name="date" required><br>
+        <label>Clicks:</label><input type="number" name="clicks" required><br>
+        <label>Impressions:</label><input type="number" name="impressions" required><br>
+        <label>Conversions:</label><input type="number" name="conversions" required><br>
+        <input type="submit" value="Add Campaign">
+    </form>
+    <a href="{{ url_for('view') }}">View Campaigns</a> | <a href="{{ url_for('chart') }}">View Chart</a>
+</body>
+</html>
