@@ -36,3 +36,5 @@ A web application to track and visualize ad campaign metrics, built for my Googl
 ![App Screenshot](https://github.com/user-attachments/assets/864cdb09-f1a5-4f45-8b62-4fb294963cd0)
 
 ![App Screenshot](https://github.com/user-attachments/assets/264eaf56-69f5-4e45-b61a-05172abba0a4)
+
+![App Screenshot](https://github.com/user-attachments/assets/b53d8596-63fd-443a-a02c-e5bb952d825f)
