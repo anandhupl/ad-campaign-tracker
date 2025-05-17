@@ -31,3 +31,6 @@ A web application to track and visualize ad campaign metrics, built for my Googl
 - Handled `TemplateNotFound` error by ensuring correct template files (`index.html`, `view.html`, `edit.html`, `chart.html`).
 - Implemented full CRUD functionality (Create, Read, Update, Delete) for campaigns like "Spring Sale" and "Summer Sale 2025 Final."
 - Error handling ensures valid input (non-negative numbers).
+
+- ## Screenshot
+![App Screenshot](https://github.com/user-attachments/assets/864cdb09-f1a5-4f45-8b62-4fb294963cd0)
