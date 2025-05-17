@@ -32,5 +32,7 @@ A web application to track and visualize ad campaign metrics, built for my Googl
 - Implemented full CRUD functionality (Create, Read, Update, Delete) for campaigns like "Spring Sale" and "Summer Sale 2025 Final."
 - Error handling ensures valid input (non-negative numbers).
 
-- ## Screenshot
+## Screenshots
 ![App Screenshot](https://github.com/user-attachments/assets/864cdb09-f1a5-4f45-8b62-4fb294963cd0)
+
+![App Screenshot](https://github.com/user-attachments/assets/264eaf56-69f5-4e45-b61a-05172abba0a4)
